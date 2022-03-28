@@ -18,20 +18,27 @@ Arch: `sudo pacman -S python`
 # Usage
 This script is ran through the CLI (Command Line Interface) but executables will be implemented soon!
 
-**MacOS/Linux:**
-1. Open up a terminal inside of the file's location
-2. Type: `python main.py`
+**MacOS:**
+1. Extract the files to a new folder
+2. Open up a terminal inside of the file's location and enter `python main.py`
 3. Enjoy!
 
 **Windows:**
-1. Open up CMD inside of the file's location
-2. Type `python main.py`
+1. Extract files to a new folder
+2. Open up CMD inside of the file's location and enter `python main.py`
+3. Enjoy!
+
+**Linux:**
+1. Clone the repository with `git clone https://github.com/westwardfishdme/method-printing-shirt-stacker`
+2. Run a terminal inside of the git repository and enter `python main.py`
 3. Enjoy!
 
 ## Future Plans:
 1. Add Toddler and Infant Sizes
 2. Custom Stack Sizing
 3. General Bug Fixes
+4. Install/Update Scripts for Linux
+5. Executables for MacOS and Windows
 
 ## Reporting Bugs
 You can report bugs on here on the issues page, I'll fix them as soon as I can.
