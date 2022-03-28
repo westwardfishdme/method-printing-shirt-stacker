@@ -1,36 +1,9 @@
 #Accurate Shirt Stacker (Method Printing)
-    #Inputs Variables
 
-#ADD SINGLE SHIRT ENUMERATION
-#ADD YOUTH AND CHILD SIZES
-
-# Catching Inputs:
-#    childsize = str(input("Is there youth sizes in your stack? [y/n]")) #Check if user has child size t-shirts
-#    toddlersize = str("Are there Infant and Toddler Sizes in your stack?[y/n]") #Check if user has toddler shirts 
-
-
-# if smasize= "xs" and adult_size.lower = "yes" or "y"
-#   if(larsize=all )
-#MAKE FUNCTIONS
-    #youth, (try a for loop?????? <<< future optimization testing)
-    #   smasize input
-    #   larsize input
-
-    # FUNCTIONS
+ # Libraries
 from lib.multiplesizes import *
 from lib.youthsizes import *
 from lib.single import *
-
-#ONLY ENUMERATE A SINGLE SIZE
-#def singlesize()#:
-#        print("_ADULT SIZES_" + "\n")
-#        print("Following inputs are accepted:" + "\n" + "XS, S, M, L, XL, 2XL, 3XL, 4XL, 5XL")
-#        single = str(input("What size are you enumerating?: "))
-#
-#def enumerate(single):
-#    print(str("regularsingle."))
-
-
 #########################################################################
 
 def main():  #Main function
@@ -64,7 +37,7 @@ def main():  #Main function
         else: #If the input has no valid inputs, assume no.
             print("// Invalid Input, assuming 'no'.")
             multifunction()
-        
+    
     #Single Size Enumeration
 
     elif multi.lower() == str("no") or multi.lower() == str("n"): 
