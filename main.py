@@ -7,7 +7,6 @@ from lib.single import *
 #########################################################################
 
 def main():  #Main function
-    x=int(0)
     def multifunction():
         print("Following inputs are accepted:" + "\n" + "XS->5XL")
         smalsize = str(input("What is the smallest size in your stack?: ")) #Smallest Size
