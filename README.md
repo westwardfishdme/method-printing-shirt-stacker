@@ -40,5 +40,8 @@ This script is ran through the CLI (Command Line Interface) but executables will
 4. Install/Update Scripts for Linux
 5. Executables for MacOS and Windows
 
-## Reporting Bugs
+## Reporting Bugs 
 You can report bugs on here on the issues page, I'll fix them as soon as I can.
+
+## Contributing
+You may contribute to this project via forking the project or through Pull Requests.
